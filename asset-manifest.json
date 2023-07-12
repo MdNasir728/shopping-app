@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shopping-app/static/css/main.cfe285d2.css",
+    "main.js": "/shopping-app/static/js/main.2dd74bff.js",
+    "static/media/headphones_a_1.webp": "/shopping-app/static/media/headphones_a_1.2a276819cd2a397990a2.webp",
+    "static/media/headphones_c_1.webp": "/shopping-app/static/media/headphones_c_1.a030f45a8a5d6c85189e.webp",
+    "index.html": "/shopping-app/index.html",
+    "main.cfe285d2.css.map": "/shopping-app/static/css/main.cfe285d2.css.map",
+    "main.2dd74bff.js.map": "/shopping-app/static/js/main.2dd74bff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe285d2.css",
+    "static/js/main.2dd74bff.js"
+  ]
+}
