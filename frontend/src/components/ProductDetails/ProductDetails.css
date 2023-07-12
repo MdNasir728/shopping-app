@@ -1,0 +1,156 @@
+.app__detail{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app__detail-img{
+    width: 27rem;
+    height: 27rem;
+    background-color: var(--product-bg);
+    margin:1rem 2rem;
+    border-radius: 1rem;
+
+}
+.app__detail-img_main{
+    width: 100%;
+    border-radius: 1rem;
+}
+.img_option{
+    width: 27rem;
+    height: 7rem;
+    margin-top: 1.5rem;
+}
+
+.img_option img{
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--product-bg);
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.app__detail-img_main:hover, .img_option img:hover{
+    background-color: var(--footer-bg);
+}
+.app__detail-content{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.app__detail-content h1{
+    color: var(--font-color);
+}
+.app__detail-content img{
+    width: 7rem;
+    height: 2rem;
+    object-fit: cover;
+}
+.app__detail-content h6{
+    font-size: 1rem;
+    color: var(--font-color);
+    line-height: 2.5rem;
+
+}
+.app__detail-content p{
+    text-align: left;
+    color: var(--font-color);
+    margin-left: -1px;
+    font-weight: 400;
+}
+.price{
+    font-size: 2rem;
+    margin: 1rem 0 ;
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity h6{
+    margin-right: 2rem;
+}
+.quantity div{
+    border: 1px solid var(--font-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.quantity-count{
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 0 1rem;
+    margin: 0 1rem;
+    /* cursor: none; */
+
+}
+.content_button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+.content_button .btn1{
+    border: 1px solid var(--footer-bg);
+    padding: 0.7rem 2rem;
+    margin-right: 1rem;
+    color: var(--footer-bg);
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.content_button .btn2{
+    background-color: var(--footer-bg);
+    border: none;
+    padding: 0.7rem 2rem;
+    color: white;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.app__mayLike{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem 0;
+    overflow: hidden;
+}
+.mayLike-heading h4{
+    font-size: 3rem;
+    color: var(--font-color);
+}
+
+.content-card_wrapper{
+    display: flex;
+    overflow: hidden;
+    transition: all 1s;
+    animation: motion 6s linear infinite;
+    position: relative;
+    transition: all 1s ease;
+    
+}
+.content-card_wrapper:hover{
+    animation-play-state: paused;
+}
+@keyframes motion {
+    from{
+        left: 0;
+    }
+    to{
+        left: -20%;
+    }
+}
+

@@ -1,0 +1,15 @@
+
+.app__footer-copyright{
+    display: flex;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 4px;
+}
+.app__footer-social_icons{
+    margin: 1rem;
+    gap: 1rem;
+    
+}

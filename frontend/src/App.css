@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@200&family=Roboto+Slab:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --hero-bg: #dcdcdc;
+  --product-bg: #ebebeb;
+  --footer-bg: #f02d34;
+  --font-color: #324d67;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section__padding {
+  padding: 1rem 2rem;
+}
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex__colLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
