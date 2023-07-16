@@ -7,7 +7,6 @@ const Context = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [cartTotalItems, setCartTotalItems] = useState(0);
   const [subTotal, setSubTotal] = useState(0);
-  console.log(cartItems);
 
   const handleCount= (type)=>{
     if (type=== 'inc') {

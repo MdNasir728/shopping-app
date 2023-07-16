@@ -7,7 +7,6 @@ import {
   Footer,
   ProductDetails,
   Context,
-  Cart
 } from "./components/Index";
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import "./ProductDetails.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
-import { ProductCard } from "../Index";
+// import { ProductCard } from "../Index";
 import { useParams } from "react-router-dom";
 import FetchData from "../hook/FetchData";
 import { context } from "../utils/Context";
@@ -84,7 +84,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      <div className="app__mayLike section__padding ">
+      {/* <div className="app__mayLike section__padding ">
         <div className="mayLike-heading">
           <h4>You May Also Like</h4>
         </div>
@@ -93,7 +93,7 @@ const ProductDetails = () => {
             <ProductCard value="productdetail" />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
